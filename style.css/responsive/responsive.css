@@ -1,0 +1,24 @@
+/* header section */
+@media screen and (max-width: 576px) {
+     nav, .nav-btn
+      {
+        flex-direction: column;
+     }
+  
+    .nav-btn, .header-button, .header-button-follow{
+      margin-top: 20px;
+    }
+    nav{
+      width:80%;
+    }
+    header{
+      box-shadow: none;
+    }
+    .main-container{
+      flex-direction: column-reverse;
+    }
+    .main-container1, .main-img{ 
+      width: 80%;
+    }
+    
+}

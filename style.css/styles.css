@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px 70px;
+    width: 1240px;
+    margin: 0px auto;
+    padding: 50px ;
+}
+.nav-btn{
+   display: flex;
+}
+.header-nav-tittle{
+    font-size: 50px;
+}
+#header-nav-span{
+    color: rgb(230, 19, 166);
+    margin-left: 20px;
+}
+ .nav-left{
+    display: flex;
+    align-items: center;
+ }
+ .header-button{
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+ }
+ .header-button-follow{
+    font-size: 20px;
+    margin-right: 0px;
+    background-color: gray;
+    border: none;
+    padding: 15px 30px;
+    border-radius:5px;
+ }
+ header{
+    box-shadow:0px 5px 5px rgb(224, 219, 219);
+ }
+
+ /* main section */
+ main{
+    background-image: url(../resources/Group\ 14.png);
+ }
+
+ .main-container{
+   display: flex;
+   max-width: 1240px;
+   margin: 0px auto;
+   justify-content: space-between;
+   align-items: center;
+   
+ }
+ .main-container1{
+   margin-top: 150px;
+   width: 50%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+ .main-img{
+   width: 50%;
+ }
+ .main-img img{
+   max-width: 100%;
+ }
+ .text-color{
+    color: gray;
+ }
+ .main-header-tittle{
+    font-size: 30px;
+    margin-bottom: 30px;
+ }
+ .goat{
+   font-weight:800;
+    font-size: 45px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgb(236, 72, 168),rgb(100, 18, 89));
+    background-clip: text;
+    color: transparent;
+ }
+ .main-tittle-div{
+    font-size: 30px;
+ }
+ .btn1{
+    background-color:hotpink;
+    padding: 30px 60px;
+    border-radius: 80px;
+    border: none;
+ }
+ .btn2{background-color: lightseagreen;
+    padding: 30px 90px;
+    border-radius: 80px;
+    border: none;
+    margin-left: 15px;
+}
+.main-button{
+    margin-top: 30px;
+}
+ 
