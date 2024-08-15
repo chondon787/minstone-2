@@ -46,10 +46,14 @@ nav{
     box-shadow:0px 5px 5px rgb(224, 219, 219);
  }
 
- /* main section */
- main{
-    background-image: url(../resources/Group\ 14.png);
- }
+  
+  
+  /* main section */
+
+  main{
+   background-image: url(../resources/Group\ 14.png);
+   background-repeat: no-repeat;
+  }
 
  .main-container{
    display: flex;
@@ -64,12 +68,17 @@ nav{
    width: 50%;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+     
+    
+ }
+ .text-center{
+   text-align: center;
  }
  .main-img{
    width: 50%;
  }
  .main-img img{
-   max-width: 100%;
+   width: 100%;
  }
  .text-color{
     color: gray;
